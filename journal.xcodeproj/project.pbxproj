@@ -18,6 +18,8 @@
 		D68720681D00DC6200F2DAD9 /* PromptsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68720671D00DC6200F2DAD9 /* PromptsViewController.swift */; };
 		D687206A1D00DFF900F2DAD9 /* DiariesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68720691D00DFF900F2DAD9 /* DiariesViewController.swift */; };
 		D687206C1D00E16B00F2DAD9 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687206B1D00E16B00F2DAD9 /* QuestionsViewController.swift */; };
+		D6E8A79B1D0A1BC500F5FCAB /* AddPhotoVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E8A79A1D0A1BC500F5FCAB /* AddPhotoVideoViewController.swift */; };
+		D6E8A79E1D0A20BE00F5FCAB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E8A79D1D0A20BE00F5FCAB /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		D68720671D00DC6200F2DAD9 /* PromptsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromptsViewController.swift; sourceTree = "<group>"; };
 		D68720691D00DFF900F2DAD9 /* DiariesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiariesViewController.swift; sourceTree = "<group>"; };
 		D687206B1D00E16B00F2DAD9 /* QuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		D6E8A79A1D0A1BC500F5FCAB /* AddPhotoVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPhotoVideoViewController.swift; sourceTree = "<group>"; };
+		D6E8A79D1D0A20BE00F5FCAB /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				D68720671D00DC6200F2DAD9 /* PromptsViewController.swift */,
 				D68720691D00DFF900F2DAD9 /* DiariesViewController.swift */,
 				D687206B1D00E16B00F2DAD9 /* QuestionsViewController.swift */,
+				D6E8A79A1D0A1BC500F5FCAB /* AddPhotoVideoViewController.swift */,
+				D6E8A79D1D0A20BE00F5FCAB /* CameraViewController.swift */,
 			);
 			path = journal;
 			sourceTree = "<group>";
@@ -271,7 +277,9 @@
 				D68720661D00D05C00F2DAD9 /* GridEntriesViewController.swift in Sources */,
 				D655D53B1D0079FD00C5326E /* ViewController.swift in Sources */,
 				D687206C1D00E16B00F2DAD9 /* QuestionsViewController.swift in Sources */,
+				D6E8A79B1D0A1BC500F5FCAB /* AddPhotoVideoViewController.swift in Sources */,
 				D687206A1D00DFF900F2DAD9 /* DiariesViewController.swift in Sources */,
+				D6E8A79E1D0A20BE00F5FCAB /* CameraViewController.swift in Sources */,
 				D68720681D00DC6200F2DAD9 /* PromptsViewController.swift in Sources */,
 				D655D5391D0079FD00C5326E /* AppDelegate.swift in Sources */,
 			);

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Zhw-ad-eV8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Y61-7g-ke8">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
@@ -82,10 +82,10 @@
             </objects>
             <point key="canvasLocation" x="1084" y="368"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Photo Video View Controller-->
         <scene sceneID="Cvk-2a-hOl">
             <objects>
-                <viewController id="RUu-MC-9ng" sceneMemberID="viewController">
+                <viewController id="RUu-MC-9ng" customClass="AddPhotoVideoViewController" customModule="journal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bZL-BP-uTP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,13 +101,49 @@
                                     <segue destination="L12-Sj-DBh" kind="modal" id="3wx-iJ-taa"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7BH-BE-0qa">
+                                <rect key="frame" x="192" y="529" width="70" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="5HO-8q-nAw" kind="push" id="fDY-0Q-HdE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ojt-CS-iVX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jDx-b5-YrY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1458" y="366"/>
+            <point key="canvasLocation" x="1990" y="366"/>
+        </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="csw-x9-q64">
+            <objects>
+                <viewController id="5HO-8q-nAw" customClass="CameraViewController" customModule="journal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R3K-gG-K3k">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="11-excercise question - video screen copy" id="uwf-k0-Z3f">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="569"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7BY-g1-zUf">
+                                <rect key="frame" x="241" y="490" width="72" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onGoBackBtnTapped:" destination="5HO-8q-nAw" eventType="touchUpInside" id="mQy-Xm-l64"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="CFd-Qs-jA3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P4T-jB-YVE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2354" y="367"/>
         </scene>
         <!--Grid Entries View Controller-->
         <scene sceneID="wYB-cp-Tiy">
@@ -174,7 +210,7 @@
                                 <rect key="frame" x="161" y="83" width="159" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="RUu-MC-9ng" kind="modal" id="SQw-7R-rPd"/>
+                                    <segue destination="Y61-7g-ke8" kind="modal" id="SQw-7R-rPd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -239,6 +275,24 @@
             </objects>
             <point key="canvasLocation" x="1123" y="1077"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mNI-hZ-mkV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Y61-7g-ke8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6Qx-Gm-KjV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="RUu-MC-9ng" kind="relationship" relationship="rootViewController" id="Itu-1C-Yr1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jSe-YJ-1aw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1458" y="366"/>
+        </scene>
     </scenes>
     <resources>
         <image name="02-home screen-1" width="320" height="554"/>
@@ -247,9 +301,10 @@
         <image name="04 - questions screen-1" width="320" height="554"/>
         <image name="06 - prompts screen-1" width="320" height="554"/>
         <image name="09 - exercise question" width="320" height="554"/>
+        <image name="11-excercise question - video screen copy" width="320" height="569"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jXb-e8-XeS"/>
+        <segue reference="3wx-iJ-taa"/>
         <segue reference="opf-KF-FcB"/>
     </inferredMetricsTieBreakers>
 </document>
