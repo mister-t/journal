@@ -20,6 +20,9 @@
 		D687206C1D00E16B00F2DAD9 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687206B1D00E16B00F2DAD9 /* QuestionsViewController.swift */; };
 		D6E8A79B1D0A1BC500F5FCAB /* AddPhotoVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E8A79A1D0A1BC500F5FCAB /* AddPhotoVideoViewController.swift */; };
 		D6E8A79E1D0A20BE00F5FCAB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E8A79D1D0A20BE00F5FCAB /* CameraViewController.swift */; };
+		D6E8A7A01D0A25A600F5FCAB /* OnePictureSelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E8A79F1D0A25A600F5FCAB /* OnePictureSelectedViewController.swift */; };
+		D6E8A7A21D0A28B200F5FCAB /* PixSelectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E8A7A11D0A28B200F5FCAB /* PixSelectionsViewController.swift */; };
+		D6E8A7A41D0A2AB100F5FCAB /* TwoPixSelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E8A7A31D0A2AB100F5FCAB /* TwoPixSelectedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		D687206B1D00E16B00F2DAD9 /* QuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		D6E8A79A1D0A1BC500F5FCAB /* AddPhotoVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPhotoVideoViewController.swift; sourceTree = "<group>"; };
 		D6E8A79D1D0A20BE00F5FCAB /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		D6E8A79F1D0A25A600F5FCAB /* OnePictureSelectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnePictureSelectedViewController.swift; sourceTree = "<group>"; };
+		D6E8A7A11D0A28B200F5FCAB /* PixSelectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixSelectionsViewController.swift; sourceTree = "<group>"; };
+		D6E8A7A31D0A2AB100F5FCAB /* TwoPixSelectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoPixSelectedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,9 @@
 				D687206B1D00E16B00F2DAD9 /* QuestionsViewController.swift */,
 				D6E8A79A1D0A1BC500F5FCAB /* AddPhotoVideoViewController.swift */,
 				D6E8A79D1D0A20BE00F5FCAB /* CameraViewController.swift */,
+				D6E8A79F1D0A25A600F5FCAB /* OnePictureSelectedViewController.swift */,
+				D6E8A7A11D0A28B200F5FCAB /* PixSelectionsViewController.swift */,
+				D6E8A7A31D0A2AB100F5FCAB /* TwoPixSelectedViewController.swift */,
 			);
 			path = journal;
 			sourceTree = "<group>";
@@ -277,11 +286,14 @@
 				D68720661D00D05C00F2DAD9 /* GridEntriesViewController.swift in Sources */,
 				D655D53B1D0079FD00C5326E /* ViewController.swift in Sources */,
 				D687206C1D00E16B00F2DAD9 /* QuestionsViewController.swift in Sources */,
+				D6E8A7A21D0A28B200F5FCAB /* PixSelectionsViewController.swift in Sources */,
 				D6E8A79B1D0A1BC500F5FCAB /* AddPhotoVideoViewController.swift in Sources */,
 				D687206A1D00DFF900F2DAD9 /* DiariesViewController.swift in Sources */,
 				D6E8A79E1D0A20BE00F5FCAB /* CameraViewController.swift in Sources */,
 				D68720681D00DC6200F2DAD9 /* PromptsViewController.swift in Sources */,
 				D655D5391D0079FD00C5326E /* AppDelegate.swift in Sources */,
+				D6E8A7A01D0A25A600F5FCAB /* OnePictureSelectedViewController.swift in Sources */,
+				D6E8A7A41D0A2AB100F5FCAB /* TwoPixSelectedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
